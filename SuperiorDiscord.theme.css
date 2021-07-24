@@ -1,0 +1,271 @@
+/**
+ * @name Superior Discord
+ * @description Two painters using the same paint to form the same shapes doesn't steal each other artwork.
+ * @author Eratas#6720 & Gibbu#1211
+ * @version 3.0.0
+ */
+
+/* Superior Discord is Based on SimplyDark */
+@import url("https://discordstyles.github.io/SimplyDark/SimplyDark.css");
+
+/* Google Play Font */
+@import url("https://fonts.googleapis.com/css?family=Play:400,700");
+
+/* Discolored by Nyria - colored svgs */
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+/* Classic Windows Titlebar */
+@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
+
+/* Settings Icons */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
+/* Server Columns */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+
+/* Horizontal server bar on top, optionnal. */
+
+/* @import url("https://discordstyles.github.io/HorizontalServerList/base.css"); */
+
+/* Horizontal server bar on bottom, optionnal. */
+
+/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
+
+
+:root {
+	--hue:212; /* The color hue of Discord | Default: 212 */
+	--saturation:30%; /* The saturation of the hue | Default: 30% */
+	--lightness:16%; /* The lightness for the hue and saturation | Default: 16% */
+	--accent:50,160,255; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
+	--avatar-shape:8%; /* The border shape of avatars | Default: 8% */
+	--server-shape:10%; /* The border shape of server icons | Default: 10% */
+	--font: 'Play'; /* Custom Google Font Wahwee*/
+	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
+
+	--columns: 1; /* Amount of server columns | Default: 1 */
+	--guildsize: 40; /* Server Icon Size for multiple columns | Default: 40 */
+	--guildgap: 1; /* The top/bottom gap between servers in pixel | Default: 1 */
+	--aligndms: 0; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 0 */
+
+	--mentioncolor: 255,170,30; /* Default: 255,170,30 */
+	--successcolor: 30,170,70; /* Default: 30,170,70 */
+	--warningcolor: 255,170,30; /* Default: 255,170,30 */
+	--dangercolor: 235,30,0; /* Default: 235,30,0 */
+	--textbrightest: 245,250,255; /* Default: 245,250,255 */
+	--textbrighter: 210,230,250; /* Default: 210,230,250 */
+	--textbright: 200,220,240; /* Default: 200,220,240 */
+	--textdark: 190,210,230; /* Default: 190,210,230 */
+	--textdarker: 160,180,200; /* Default: 160,180,200 */
+	--textdarkest: 140,160,180; /* Default: 140,160,180 */
+
+	--HSL-server-icon-size: 40px;  /* Size of the server icons, if the server bar on top and bottom is enabled | Default: 40px */
+	--HSL-server-spacing: 1px;  /* Spacing between each server icons, if the server bar on top and bottom is enabled | Default: 1px */
+
+	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
+
+}
+
+
+#app-mount .chat-3bRxxu {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+}
+#app-mount .wrapper-3NnKdC {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+}
+#app-mount .chat-3bRxxu .channelTextArea-rNsIhG {
+	border-top: 1px solid var(--sd-borders);
+}
+#app-mount .container-1r6BKw {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+}
+#app-mount .container-1r6BKw .searchBar-3dMhjb {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 0%));
+}
+#app-mount .sidebar-2K8pFh .searchBar-6Kv8R2 {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#app-mount .sidebar-2K8pFh .header-2V-4Sw {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#app-mount .wrapper-3NnKdC .expandedFolderBackground-1cujaW {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+  border-radius: 30px !important;
+}
+
+.theme-dark, .theme-light {
+	--text-positive: rgb(var(--successcolor));
+	--text-warning: rgb(var(--warningcolor));
+	--text-danger: rgb(var(--dangercolor));
+	--info-positive-background: rgba(var(--successcolor),.1);
+	--info-positive-foreground: rgb(var(--successcolor));
+	--info-positive-text: #fff;
+	--info-warning-background: rgba(var(--warningcolor),.1);
+	--info-warning-foreground: rgb(var(--warningcolor));
+	--info-warning-text: #fff;
+	--info-danger-background: rgba(var(--dangercolor),.1);
+	--info-danger-foreground: rgb(var(--dangercolor));
+	--info-danger-text: #fff;
+	--status-positive-background: rgb(var(--successcolor));
+	--status-positive-text: #fff;
+	--status-warning-background: rgb(var(--warningcolor));
+	--status-warning-text: #fff;
+	--status-danger-background: rgb(var(--dangercolor));
+	--status-danger-text: #fff;
+	--header-primary: rgb(var(--textbrightest));
+	--header-secondary: rgb(var(--textbright));
+	--text-normal: rgb(var(--textbrighter));
+	--text-muted: rgb(var(--textdarker));
+	--channels-default: rgb(var(--textdark));
+	--interactive-normal: rgb(var(--textbright));
+	--interactive-hover: rgb(var(--textbrighter));
+	--interactive-active: rgb(var(--textbrightest));
+	--interactive-muted: rgb(var(--textdarkest));
+	--background-primary: rgb(var(--backgroundprimary));
+	--background-secondary: rgb(var(--backgroundsecondary));
+	--background-secondary-alt: rgb(var(--backgroundsecondaryalt));
+	--background-tertiary: rgb(var(--backgroundtertiary));
+	--background-accent: rgb(var(--backgroundaccent));
+	--background-floating: rgb(var(--backgroundfloating));
+	--background-mobile-primary: rgb(var(--backgroundprimary));
+	--background-mobile-secondary: rgb(var(--backgroundsecondary));
+	--background-modifier-hover: rgba(var(--backgroundaccent),.3);
+	--background-modifier-active: rgba(var(--backgroundaccent),.4);
+	--background-modifier-selected: rgba(var(--backgroundaccent),.6);
+	--background-modifier-accent: rgba(var(--textdark),.1);
+	--background-mentioned: rgba(var(--mentioncolor, --warningcolor),.05);
+	--background-mentioned-hover: rgba(var(--mentioncolor, --warningcolor),.08);
+	--background-mentioned-accent: rgb(var(--mentioncolor, --warningcolor));
+	--background-message-hover: rgba(var(--backgroundfloating),.15);
+	--scrollbar-thin-thumb: rgb(var(--backgroundtertiary));
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: rgb(var(--backgroundtertiary));
+	--scrollbar-auto-track: rgb(var(--backgroundsecondary));
+	--scrollbar-auto-scrollbar-color-thumb: rgb(var(--backgroundtertiary));
+	--scrollbar-auto-scrollbar-color-track: rgb(var(--backgroundsecondary));
+	--elevation-stroke: 0 0 0 1px rgba(6,6,7,.08);
+	--elevation-low: 0 1px 0 rgba(6,6,7,.1), 0 1.5px 0 rgba(6,6,7,.25), 0 2px 0 rgba(6,6,7,.025);
+	--elevation-medium: 0 4px 4px rgba(0,0,0,.08);
+	--elevation-high: 0 8px 16px rgba(0,0,0,.16);
+	--logo-primary: rgb(var(--accentcolor));
+	--focus-primary: rgb(var(--linkcolor));
+	--guild-header-text-shadow: 0 1px 1px rgba(var(--backgroundfloating),.5);
+	--channeltextarea-background: rgba(var(--backgroundaccent),.8);
+	--activity-card-background: rgb(var(--backgroundtertiary));
+	--textbox-markdown-syntax: rgb(var(--textdark));
+	--deprecated-card-bg: rgba(var(--backgroundtertiary),.6);
+	--deprecated-card-editable-bg: rgba(var(--backgroundtertiary),.3);
+	--deprecated-store-bg: rgb(var(--backgroundprimary));
+	--deprecated-quickswitcher-input-background: rgb(var(--backgroundaccent));
+	--deprecated-quickswitcher-input-placeholder: rgb(var(--textdarker));
+	--deprecated-text-input-bg: rgba(0,0,0,.1);
+	--deprecated-text-input-border: rgba(0,0,0,.3);
+	--deprecated-text-input-border-hover: #040405;
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-prefix: rgb(var(--textbrighter));
+}
+
+
+/* Borders */
+
+
+.guilds-1SWlCJ {
+    border: 1px solid var(--sd-borders);
+}
+.container-1D34oG {
+    border: 1px solid var(--sd-borders);
+}
+.chat-3bRxxu {
+    border: 1px solid var(--sd-borders);
+}
+.sidebar-2K8pFh:not(div.searchBar-6Kv8R2) {
+    border-top: 1px solid var(--sd-borders);
+    border-bottom: 1px solid var(--sd-borders);
+}
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0px;
+}
+.applicationStore-1pNvnv {
+    border: 1px solid var(--sd-borders)
+}
+.applicationStore-1pNvnv {
+    background-color: transparent;
+}
+.contentRegion-3nDuYy {
+    border: 1px solid var(--sd-borders);
+}
+.sidebarRegion-VFTUkN {
+    border-bottom: 1px solid var(--sd-borders);
+    border-top: 1px solid var(--sd-borders);
+    border-left: 1px solid var(--sd-borders);
+}
+.accountProfileCard-1XCH88 {
+    border: 1px solid var(--sd-borders);
+}
+.sidebar-2K8pFh {
+    border-bottom: 1px solid var(--sd-borders);
+    border-top: 1px solid var(--sd-borders);
+}
+.pageWrapper-1PgVDX {
+    border: 1px solid var(--sd-borders);
+}
+.members-1998pB {
+    border-left: 1px solid var(--sd-borders);
+}
+
+
+/* TEXT */
+
+
+.description-1u9Qui {
+	color: var(--header-secondary);
+}
+#app-mount h1.title-3KTIjF,
+#app-mount h2.title-3KTIjF {
+	color: var(--header-primary);
+}
+#app-mount h3.title-3KTIjF {
+	color: var(--text-normal);
+}
+#app-mount h4.title-3KTIjF,
+#app-mount h5.title-3KTIjF,
+#app-mount h6.title-3KTIjF {
+	color: var(--header-secondary);
+}
+#app-mount .text-GwUZgS,
+#app-mount .title-2BxgL2 {
+	color: var(--text-muted);
+}
+#app-mount .title-3pjxZQ {
+	color: var(--header-secondary);
+}
+#app-mount .markdown-11q6EU {
+	color: var(--text-normal);
+}
+#app-mount .markdown-11q6EU th {
+	background-color: var(--background-tertiary);
+	border-color: var(--interactive-muted);
+	color: var(--header-primary);
+}
+#app-mount .markdown-11q6EU td {
+	border-color: var(--interactive-muted);
+}
+#app-mount .markdown-11q6EU tr {
+	border-color: var(--interactive-muted);
+	color: var(--header-secondary);
+}
+#app-mount .markdown-11q6EU tr:nth-child(2n) {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-11q6EU .blockquote-2-nEPK {
+	border-left-color: var(--interactive-muted);
+}
+#app-mount .markdown-11q6EU code {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-11q6EU .codeInline-1FHKS7 {
+	color: var(--text-normal);
+}
