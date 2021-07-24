@@ -61,3 +61,16 @@ Horizontal Server List top/bottom settings are disabled by default, you can enab
 12. Review the settings for a better personnal experience.
 
 You can reload Discord anytime with <kbd>CTRL</kbd> + <kbd>R</kbd> while Discord is focused.
+
+# Disable Discord Smooth Scrolling Bat file:
+Create a text file in your discord folder and just copy past that inside, rename the file extention into .bat; you can replace the path with your own if it doesn't launch.
+You can then create a shortcut of that .bat and pin it in the start menu.
+
+
+cd C:\Users\%user%\AppData\Local\Discord
+FOR /F "delims=" %%i IN ('dir /b /ad-h /t:c /od') DO SET a=%%i
+start Update.exe
+start %a%\Discord.exe --disable-smooth-scrolling
+
+
+Thanks to r/u/Holycraplol for the bat.
