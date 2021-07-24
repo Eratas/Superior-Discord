@@ -42,7 +42,7 @@ Horizontal Server List top/bottom settings are disabled by default, you can enab
 
 
 # BetterDiscord Installation
-1. [Download BetterDiscord](https://betterdiscord.app/).
+1. [Download BetterDiscord](https://betterdiscord.app/) and the Theme file.
 2. Drag the installer outside of your Downloads folder and run as Administrator.
 3. Agree to the license.
 4. Check Install and click next.
@@ -56,7 +56,7 @@ Horizontal Server List top/bottom settings are disabled by default, you can enab
 7. Open your User Settings page.
 8. Scroll down and open your Themes tab.
 9. Click the Open Themes Folder button.
-10. Drag the "SuperiorDiscord.theme.css" file that you downloaded here into your themes folder.
+10. Drag the "SuperiorDiscord.theme.css" file that you just downloaded into your themes folder (C:\Users\%user%\AppData\Roaming\BetterDiscord\themes).
 11. Go back to your Themes tab in Discord and enable the Superior Discord theme.
 12. Review the settings for a better personnal experience.
 
