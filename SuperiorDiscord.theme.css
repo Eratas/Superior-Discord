@@ -6,7 +6,7 @@
  */
 
 /* Superior Discord is Based on SimplyDark */
-@import url("https://discordstyles.github.io/SimplyDark/SimplyDark.css");
+@import url("https://eratas.github.io/simplydark.css");
 
 /* Superior Discord Essential code */
 @import url("https://eratas.github.io/SuperiorDiscordEssentials.css");
@@ -25,6 +25,9 @@
 
 /* Server Columns */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+
+/* Radial Status */
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
 
 
 /* Horizontal server bar on top, optionnal. */
