@@ -1,26 +1,26 @@
-/* Superior Discord Essential Code */
+/* Superior Discord Essentials */
 
 .avatarContainer-2LLZwy {
-    border-radius: 50% !important;
+	border-radius: 50% !important;
 }
 .voiceUsers-2V7vuh {
 	border-radius: 50% !important;
 }
 .avatar-3Heyg_ {
-    border-radius: 50% !important;
+	border-radius: 50% !important;
 }
 .speaking-3dBKhR {
-    -webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
-    box-shadow: 0px 0px 0px 2px #58B45A !important;
+	-webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
+	box-shadow: 0px 0px 0px 2px #58B45A !important;
 	border-radius: 50% !important;
 }
 .avatarSpeaking-2IGMRN {
-    -webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
-    box-shadow: 0px 0px 0px 2px #58B45A !important;
+	-webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
+	box-shadow: 0px 0px 0px 2px #58B45A !important;
 }
 .avatarSmall-1PJoGO {
-    width: 24px;
-    height: 24px;
+	width: 24px;
+	height: 24px;
 	border-radius: 100% !important;
 }
 .avatar-AvHqJA {
@@ -30,13 +30,11 @@
 	border-radius: 100% !important;
 }
 .avatarHint-2A3RNb {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    opacity: 0;
-    -webkit-transition: opacity .1s ease;
-    transition: opacity .1s ease;
-    pointer-events: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-webkit-transition: opacity .1s ease;
+	transition: opacity .1s ease;
 }
 #app-mount .avatar-VxgULZ {
 	border-radius: var(--avatar-shape) !important;
