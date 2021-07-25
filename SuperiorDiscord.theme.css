@@ -2,7 +2,7 @@
  * @name Superior Discord
  * @description Two painters using the same paint to form the same shapes doesn't steal each other artwork.
  * @author Eratas#6720 & Gibbu#1211
- * @version 3.0.0
+ * @version 3.1.0
  */
 
 /* Superior Discord is Based on SimplyDark */
@@ -44,7 +44,7 @@
 	--saturation:30%; /* The saturation of the hue | Default: 30% */
 	--lightness:16%; /* The lightness for the hue and saturation | Default: 16% */
 	--accent:50,160,255; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
-	--avatar-shape:8%; /* The border shape of avatars | Default: 8% */
+	--avatar-shape:10%; /* The border shape of avatars | Default: 10% */
 	--server-shape:10%; /* The border shape of server icons | Default: 10% */
 	--font: 'Play'; /* Custom Google Font Wahwee*/
 	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
