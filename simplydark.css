@@ -24,7 +24,11 @@
   --rs-phone-visible: block;
 }
 
-
+*, *:before, *:after {
+  -webkit-mask: none;
+          mask: none;
+  border-radius: 0 !important;
+}
 
 ::-moz-selection {
   background: rgb(var(--accent));
