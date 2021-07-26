@@ -2,7 +2,7 @@
  * @name Superior Discord
  * @description Two painters using the same paint to form the same shapes doesn't steal each other artwork.
  * @author Eratas#6720 & Gibbu#1211
- * @version 3.1.0
+ * @version 3.0.0
  */
 
 /* Superior Discord is Based on SimplyDark */
@@ -27,16 +27,8 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 /* Radial Status */
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
-
-/* Horizontal server bar on top, optionnal. */
-
-/* @import url("https://discordstyles.github.io/HorizontalServerList/base.css"); */
-
-/* Horizontal server bar on bottom, optionnal. */
-
-/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
 
 
 :root {
@@ -44,7 +36,7 @@
 	--saturation:30%; /* The saturation of the hue | Default: 30% */
 	--lightness:16%; /* The lightness for the hue and saturation | Default: 16% */
 	--accent:50,160,255; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
-	--avatar-shape:10%; /* The border shape of avatars | Default: 10% */
+	--avatar-shape:8%; /* The border shape of avatars | Default: 8% */
 	--server-shape:10%; /* The border shape of server icons | Default: 10% */
 	--font: 'Play'; /* Custom Google Font Wahwee*/
 	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
@@ -65,9 +57,6 @@
 	--textdarker: 160,180,200; /* Default: 160,180,200 */
 	--textdarkest: 140,160,180; /* Default: 140,160,180 */
 
-	--HSL-server-icon-size: 40px;  /* Size of the server icons, if the server bar on top and bottom is enabled | Default: 40px */
-	--HSL-server-spacing: 1px;  /* Spacing between each server icons, if the server bar on top and bottom is enabled | Default: 1px */
-
-	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
+	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7.4%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
 
 }
