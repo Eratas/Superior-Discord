@@ -1,47 +1,36 @@
-/* Superior Discord Essentials */
+/* Superior Discord Essential Code */
 
-.messagesPopoutWrap-1MQ1bW {
-    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
+#app-mount .tooltipPrimary-1d1ph4 {
+  --text-muted: var(--text-normal);
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
 }
-.avatarContainer-2LLZwy {
-	border-radius: 50% !important;
-}
-.voiceUsers-2V7vuh {
-	border-radius: 50% !important;
-}
-.avatar-3Heyg_ {
-	border-radius: 50% !important;
+#app-mount .tooltipPointer-3ZfirK {
+  border-top-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
 }
 .speaking-3dBKhR {
-	-webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
-	box-shadow: 0px 0px 0px 2px #58B45A !important;
-	border-radius: 50% !important;
-}
-.avatarSpeaking-2IGMRN {
-	-webkit-box-shadow: 0px 0px 0px 2px #58B45A !important;
-	box-shadow: 0px 0px 0px 2px #58B45A !important;
+	box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),inset 0 0 0 0px var(--background-secondary);
 }
 .avatarSmall-1PJoGO {
-	width: 24px;
-	height: 24px;
-	border-radius: 100% !important;
+    width: 24px;
+    height: 24px;
+	border-radius: 50% !important;
 }
 .avatar-AvHqJA {
-	border-radius: 100% !important;
+	border-radius: 50% !important;
 }
 .avatar-37jOim {
-	border-radius: 100% !important;
+	border-radius: 50% !important;
 }
 .avatarHint-2A3RNb {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	-webkit-transition: opacity .1s ease;
-	transition: opacity .1s ease;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
 }
 #app-mount .avatar-VxgULZ {
 	border-radius: var(--avatar-shape) !important;
 }
+
 #app-mount .avatar-1BDn8e {
 	border-radius: var(--avatar-shape) !important;
 }
@@ -103,17 +92,17 @@
 	--interactive-hover: rgb(var(--textbrighter));
 	--interactive-active: rgb(var(--textbrightest));
 	--interactive-muted: rgb(var(--textdarkest));
-	--background-primary: rgb(var(--backgroundprimary));
-	--background-secondary: rgb(var(--backgroundsecondary));
-	--background-secondary-alt: rgb(var(--backgroundsecondaryalt));
-	--background-tertiary: rgb(var(--backgroundtertiary));
-	--background-accent: rgb(var(--backgroundaccent));
-	--background-floating: rgb(var(--backgroundfloating));
-	--background-mobile-primary: rgb(var(--backgroundprimary));
-	--background-mobile-secondary: rgb(var(--backgroundsecondary));
-	--background-modifier-hover: rgba(var(--backgroundaccent),.3);
-	--background-modifier-active: rgba(var(--backgroundaccent),.4);
-	--background-modifier-selected: rgba(var(--backgroundaccent),.6);
+	--background-primary: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+	--background-secondary: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+	--background-secondary-alt: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 5%));
+	--background-tertiary: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
+	--background-accent: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+	--background-floating: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
+	--background-mobile-primary: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+	--background-mobile-secondary: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+	--background-modifier-hover: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+	--background-modifier-active: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
+	--background-modifier-selected: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 	--background-modifier-accent: rgba(var(--textdark),.1);
 	--background-mentioned: rgba(var(--mentioncolor, --warningcolor),.05);
 	--background-mentioned-hover: rgba(var(--mentioncolor, --warningcolor),.08);
@@ -121,24 +110,22 @@
 	--background-message-hover: rgba(var(--backgroundfloating),.15);
 	--scrollbar-thin-thumb: rgb(var(--backgroundtertiary));
 	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: rgb(var(--backgroundtertiary));
-	--scrollbar-auto-track: rgb(var(--backgroundsecondary));
-	--scrollbar-auto-scrollbar-color-thumb: rgb(var(--backgroundtertiary));
-	--scrollbar-auto-scrollbar-color-track: rgb(var(--backgroundsecondary));
+	--scrollbar-auto-thumb: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+	--scrollbar-auto-track: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+	--scrollbar-auto-scrollbar-color-thumb: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+	--scrollbar-auto-scrollbar-color-track: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
 	--elevation-stroke: 0 0 0 1px rgba(6,6,7,.08);
 	--elevation-low: 0 1px 0 rgba(6,6,7,.1), 0 1.5px 0 rgba(6,6,7,.25), 0 2px 0 rgba(6,6,7,.025);
 	--elevation-medium: 0 4px 4px rgba(0,0,0,.08);
 	--elevation-high: 0 8px 16px rgba(0,0,0,.16);
 	--logo-primary: rgb(var(--accentcolor));
 	--focus-primary: rgb(var(--linkcolor));
-	--guild-header-text-shadow: 0 1px 1px rgba(var(--backgroundfloating),.5);
-	--channeltextarea-background: rgba(var(--backgroundaccent),.8);
-	--activity-card-background: rgb(var(--backgroundtertiary));
+	--activity-card-background: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 	--textbox-markdown-syntax: rgb(var(--textdark));
-	--deprecated-card-bg: rgba(var(--backgroundtertiary),.6);
-	--deprecated-card-editable-bg: rgba(var(--backgroundtertiary),.3);
-	--deprecated-store-bg: rgb(var(--backgroundprimary));
-	--deprecated-quickswitcher-input-background: rgb(var(--backgroundaccent));
+	--deprecated-card-bg: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 1%));
+	--deprecated-card-editable-bg: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 1%));
+	--deprecated-store-bg: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+	--deprecated-quickswitcher-input-background: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 1%));
 	--deprecated-quickswitcher-input-placeholder: rgb(var(--textdarker));
 	--deprecated-text-input-bg: rgba(0,0,0,.1);
 	--deprecated-text-input-border: rgba(0,0,0,.3);
@@ -171,7 +158,7 @@
     border: 1px solid var(--sd-borders)
 }
 .applicationStore-1pNvnv {
-    background-color: transparent;
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 6%));
 }
 .contentRegion-3nDuYy {
     border: 1px solid var(--sd-borders);
