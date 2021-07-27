@@ -6,9 +6,9 @@
  */
 
 /* Superior Discord is Based on SimplyDark */
-@import url("https://eratas.github.io/simplydark.css");
+@import url("https://discordstyles.github.io/SimplyDark/dist/SimplyDark.css");
 
-/* Superior Discord Essential code */
+/* Superior Discord Essentials */
 @import url("https://eratas.github.io/SuperiorDiscordEssentials.css");
 
 /* Google Play Font */
@@ -25,9 +25,6 @@
 
 /* Server Columns */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-
-/* Radial Status */
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 
 
@@ -57,6 +54,6 @@
 	--textdarker: 160,180,200; /* Default: 160,180,200 */
 	--textdarkest: 140,160,180; /* Default: 140,160,180 */
 
-	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7.4%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
+	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7.5%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
 
 }
