@@ -1,5 +1,6 @@
 /* Superior Discord Essential Code */
 
+
 *, *:before, *:after {
   -webkit-mask: none;
           mask: none;
@@ -22,21 +23,20 @@
 	border-radius: 50% !important;
 }
 .avatar-AvHqJA {
-	border-radius: 50% !important;
+	border-radius: 100% !important;
+	border: 0px !important;
 }
 .avatar-37jOim {
 	border-radius: 50% !important;
+	border: 0px !important;
 }
 .avatarHint-2A3RNb {
-    position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0;
 }
 #app-mount .avatar-VxgULZ {
 	border-radius: var(--avatar-shape) !important;
 }
-
 #app-mount .avatar-1BDn8e {
 	border-radius: var(--avatar-shape) !important;
 }
@@ -59,6 +59,9 @@
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+#app-mount .sidebar-2K8pFh .panels-j1Uci_ {
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%));
 }
 #app-mount .sidebar-2K8pFh .header-2V-4Sw {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
