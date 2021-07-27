@@ -1,6 +1,5 @@
 /* Superior Discord Essential Code */
 
-
 #app-mount .tooltipPrimary-1d1ph4 {
   --text-muted: var(--text-normal);
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 12%));
@@ -69,7 +68,12 @@
           box-shadow: none;
 }
 #app-mount .wrapper-3NnKdC .expandedFolderBackground-1cujaW {
-  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+	border-radius: 50% !important;
+}
+#app-mount .wrapper-3NnKdC .folder-1hbNCn {
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
+    border-radius: var(--server-shape) !important;
 }
 
 .theme-dark, .theme-light {
