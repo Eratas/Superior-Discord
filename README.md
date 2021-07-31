@@ -7,13 +7,13 @@ Based on Gibbu's [SimplyDark](https://discordstyles.github.io/SimplyDark/) (than
 
 Normal:
 
-![normal](https://user-images.githubusercontent.com/62240722/126868102-30ec27ee-5110-4491-a75f-b6265416e5e3.png)
+![normal](https://user-images.githubusercontent.com/62240722/127734701-f3826d7a-1308-4552-ad4b-8da896721d15.png)
 
 
 
 2 Columns:
 
-![columns](https://user-images.githubusercontent.com/62240722/126868229-f1396d8b-8e74-4b2d-9229-051b0a68d1cb.png)
+![image](https://user-images.githubusercontent.com/62240722/127734721-a9e4b52e-6b5c-41e0-b3b7-a73160783421.png)
 
 
 
@@ -34,10 +34,6 @@ Settings 3/3:
 ![settings3](https://user-images.githubusercontent.com/62240722/126868330-d202085a-8a7d-404f-a81b-4b537dda5d35.png)
 
 
-
-Horizontal Server List top/bottom settings are disabled by default, you can enable them anytime:
-
-![settings4](https://user-images.githubusercontent.com/62240722/126868402-78fd7853-67b1-4dd2-8937-cf71708c1cf1.png)
 
 
 
