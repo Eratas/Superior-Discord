@@ -11,20 +11,61 @@
 /* Superior Discord Essential Code */
 
 
+/* Inbox */
+
+
+.header-2-Imhb,
+.header-ykumBX {
+	justify-content: flex-end !important;
+}
+.button-1-5Aqk,
+.secondary-dIudih
+.size32-T2BHRe {
+	margin-left: 4px;
+	margin-right: 4px;
+	border-radius: 2px !important;
+	clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 8px;
+}
+
+
 /* Channels */
+
+
 .wrapper-1ucjTd,
 .wrapper-2jXpOf {
     padding: 0px !important;
 }
 .content-3at_AU,
 .content-1x5b-n {
-    height: 24px !important;
+    height: 26px !important;
 }
 .layout-2DM8Md {
 	height: 40px !important;
 }
 .name-uJV0GL {
-	font-size: 15px !important;
+	font-size: 14px !important;
+}
+.list-2luk8a {
+    padding-left: 6px;
+    padding-bottom: 4px;
+}
+.ownerIcon-2NH9FM {
+    margin-left: 2px;
+	margin-right: 8px;
+}
+.userSmall-YJ5L9_ {
+    height: 30px;
+}
+.draggable-2E_4tJ {
+    height: 30px;
+}
+.containerDefault-3tr_sE {
+    padding-top: 12px;
+}
+.container-2ax-kl {
+	font-size: 13px;
+	font-weight: 700;
 }
 
 
