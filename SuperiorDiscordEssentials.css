@@ -11,16 +11,36 @@
 /* Superior Discord Essential Code */
 
 
+
+/* Public and read all buttons */
+
+
+.wrapper-3NnKdC #bd-pub-li #bd-pub-button {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 14%));
+	text-transform: uppercase;
+}
+.wrapper-3NnKdC #bd-pub-li #bd-pub-button:hover {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+}
+.frame-oXWS21 .innerFrame-8Hg64E {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 14%));
+	text-transform: capitalize;
+}
+.frame-oXWS21 .innerFrame-8Hg64E:hover {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+}
+
+
 /* Reactions */
 
 
 #app-mount .chat-3bRxxu .reaction-1hd86g {
-    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 11%));
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 9%));
 	border-radius: 3px !important;
 }
 #app-mount .reactionInner-15NvIl {
-	padding-top: 2px !important;
-	padding-bottom: 2px !important;
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
 	padding-left: 5px !important;
 	padding-right: 5px !important;
 }
@@ -28,8 +48,8 @@
 	font-size: 15px;
 }
 #app-mount .reaction-1hd86g .emoji {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     margin: 0px 0px;
     min-width: auto;
     min-height: auto;
@@ -42,6 +62,11 @@
 #app-mount .avatar-1j43gH {
     margin-right: -8px;
 }
+.reactors .more-reactors {
+	border-radius: 100% !important;
+}
+
+
 
 
 /* Inbox */
@@ -100,7 +125,6 @@
 	font-size: 13px;
 	font-weight: 700;
 }
-
 .UserDetails-mutualServers-mutualGuild {
     margin-right: 2px !important;
 	border-radius: 4px !important;
@@ -446,6 +470,9 @@
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+#app-mount .chat-3bRxxu .scrollableContainer-2NUZem {
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 3%));
 }
 #app-mount .wrapper-3NnKdC .expandedFolderBackground-1cujaW {
 	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
