@@ -11,6 +11,39 @@
 /* Superior Discord Essential Code */
 
 
+/* Reactions */
+
+
+#app-mount .chat-3bRxxu .reaction-1hd86g {
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 11%));
+	border-radius: 3px !important;
+}
+#app-mount .reactionInner-15NvIl {
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+#app-mount .reactionCount-2mvXRV {
+	font-size: 15px;
+}
+#app-mount .reaction-1hd86g .emoji {
+    width: 28px;
+    height: 28px;
+    margin: 0px 0px;
+    min-width: auto;
+    min-height: auto;
+}
+#app-mount .avatarSize-EXG1Is {
+	border-radius: 100% !important;
+    width: 24px !important;
+    height: 24px !important;
+}
+#app-mount .avatar-1j43gH {
+    margin-right: -8px;
+}
+
+
 /* Inbox */
 
 
@@ -47,7 +80,7 @@
 	font-size: 14px !important;
 }
 .list-2luk8a {
-    padding-left: 6px;
+    padding-left: 35px;
     padding-bottom: 4px;
 }
 .ownerIcon-2NH9FM {
