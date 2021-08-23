@@ -7,6 +7,9 @@
  * Two painters using the same paint to form the same shapes doesn't steal each other artwork.
  */
 
+/* Superior Discord Experimental code */
+@import url("https://eratas.github.io/SuperiorDiscordExperimental.css");
+
 /* SuperiorDiscord.css */
 @import url("https://eratas.github.io/SuperiorDiscord.css");
 
