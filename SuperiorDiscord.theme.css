@@ -1,47 +1,32 @@
 /**
  * @name Superior Discord
- * @description Two painters using the same paint to form the same shapes doesn't steal each other artwork.
- * @author Eratas#6720 & Gibbu#1211
- * @version 3.2.0
+ * @description A highly customizable Superior look for Discord
+ * @author Eratas#6720
+ * @version 4.0.0
+ * @source https://github.com/DiscordStyles/SimplyDark
+ * Two painters using the same paint to form the same shapes doesn't steal each other artwork.
  */
 
-/* Superior Discord is Based on SimplyDark */
-@import url("https://discordstyles.github.io/SimplyDark/dist/SimplyDark.css");
-
-/* Superior Discord Essentials */
-@import url("https://eratas.github.io/SuperiorDiscordEssentials.css");
+/* SuperiorDiscord.css */
+@import url("https://eratas.github.io/SuperiorDiscord.css");
 
 /* Google Play Font */
 @import url("https://fonts.googleapis.com/css?family=Play:400,700");
-
-/* Discolored by Nyria - colored svgs */
-@import url("https://nyri4.github.io/Discolored/main.css");
-
-/* Classic Windows Titlebar */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
-
-/* Settings Icons */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
-
-/* Server Columns */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-
-
 
 :root {
 	--hue:212; /* The color hue of Discord | Default: 212 */
 	--saturation:30%; /* The saturation of the hue | Default: 30% */
 	--lightness:16%; /* The lightness for the hue and saturation | Default: 16% */
-	--accent:50,160,255; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
+	--accent: 255,150,30; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
 	--avatar-shape:8%; /* The border shape of avatars | Default: 8% */
 	--server-shape:10%; /* The border shape of server icons | Default: 10% */
 	--font: 'Play'; /* Custom Google Font Wahwee*/
 	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
 
-	--columns: 1; /* Amount of server columns | Default: 1 */
+	--columns: 2; /* Amount of server columns | Default: 1 */
 	--guildsize: 40; /* Server Icon Size for multiple columns | Default: 40 */
 	--guildgap: 1; /* The top/bottom gap between servers in pixel | Default: 1 */
-	--aligndms: 0; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 0 */
+	--aligndms: 1; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 0 */
 
 	--mentioncolor: 255,170,30; /* Default: 255,170,30 */
 	--successcolor: 30,170,70; /* Default: 30,170,70 */
@@ -53,7 +38,4 @@
 	--textdark: 190,210,230; /* Default: 190,210,230 */
 	--textdarker: 160,180,200; /* Default: 160,180,200 */
 	--textdarkest: 140,160,180; /* Default: 140,160,180 */
-
-	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7.5%)); /* Border lightness in % | Theme Default: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 7%)) */
-
 }
