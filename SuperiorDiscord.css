@@ -1,16 +1,39 @@
-/* Better Badges by mr_miner#6969 */
-@import url("https://mr-miner1.github.io/Better-Badges/src/badges.css");
+/* Superior Discord Experimental code */
+@import url("https://eratas.github.io/SuperiorDiscordExperimental.css");
+
+/* Discolored by nyria */
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+/* Settings Icons by mwittrien */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
+/* Server Columns by mwittrien */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+
+/* Radial Status by gibbu */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
-    --badge-size: 28px; /*discord default = 18px, theme default = 22px;*/
-    --badge-margin: 1.5px; /*discord default = 2px, theme default = 1.5px*/
-    --badges-everywhere-size: 15px; /*default = 15px*/
+	--SD-version: "4.0.0";
+	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%));
 }
-
 
 /* Superior Discord Essential Code */
 
-
+#app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+	content: "Superior Discord v" var(--SD-version);
+	text-transform: none;
+	display: block;
+}
+html.theme-light #app-mount:after {
+	content: "Superior Discord does not support Light Mode\aPlease enable Dark Mode in your Discord Appearance Settings";
+	white-space: pre-wrap;
+	line-height: 24px;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 20%));
+}
 
 /* Public and read all buttons */
 
