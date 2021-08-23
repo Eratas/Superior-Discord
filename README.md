@@ -1,6 +1,6 @@
 # Superior-Discord
 A new theme design for a Better Discord experience.
-Based on Gibbu's [SimplyDark](https://discordstyles.github.io/SimplyDark/) (thank you!)
+Based on Gibbu's [SimplyDark sources](https://github.com/DiscordStyles/SimplyDark/tree/master/src) (thank you!)
 
 # Screenshots
 
