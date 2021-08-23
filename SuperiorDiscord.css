@@ -1,6 +1,3 @@
-/* Superior Discord Experimental code */
-@import url("https://eratas.github.io/SuperiorDiscordExperimental.css");
-
 /* Discolored by nyria */
 @import url("https://nyri4.github.io/Discolored/main.css");
 
@@ -11,7 +8,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 /* Radial Status by gibbu */
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+/* @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); */
 
 :root {
 	--SD-version: "4.0.0";
@@ -21,12 +18,12 @@
 /* Superior Discord Essential Code */
 
 #app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
-	content: "Superior Discord v" var(--SD-version);
+	content: "Superior Discord v" var(--SD-version) !important;
 	text-transform: none;
 	display: block;
 }
 html.theme-light #app-mount:after {
-	content: "Superior Discord does not support Light Mode\aPlease enable Dark Mode in your Discord Appearance Settings";
+	content: "Superior Discord does not support Light Mode\aPlease enable Dark Mode in your Discord Appearance Settings" !important;
 	white-space: pre-wrap;
 	line-height: 24px;
 	color: #fff;
