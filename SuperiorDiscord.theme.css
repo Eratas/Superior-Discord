@@ -13,6 +13,9 @@
 /* Google Play Font */
 @import url("https://fonts.googleapis.com/css?family=Play:400,700");
 
+/* Classic Windows titlebar by Gibbu#1211 */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
 :root {
 	--hue:212; /* The color hue of Discord | Default: 212 */
 	--saturation:30%; /* The saturation of the hue | Default: 30% */
