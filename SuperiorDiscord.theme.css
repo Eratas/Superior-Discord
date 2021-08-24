@@ -32,7 +32,7 @@
 	--font: 'Play'; /* Custom Google Font Wahwee*/
 	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
 
-	--columns: 2; /* Amount of server columns | Default: 1 */
+	--columns: 1; /* Amount of server columns | Default: 1 */
 	--guildsize: 40; /* Server Icon Size for multiple columns | Default: 40 */
 	--guildgap: 1; /* The top/bottom gap between servers in pixel | Default: 1 */
 	--aligndms: 1; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 0 */
