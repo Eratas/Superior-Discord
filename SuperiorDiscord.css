@@ -13,6 +13,7 @@
 
 /* Superior Discord Essential Code */
 
+
 /* Public and read all buttons */
 
 
@@ -383,9 +384,8 @@
     --cp-size: 6px;
 }
 .mask-1qbNWk {
-    border-radius: 0px !important;
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 6px;
+	border-radius: 50% !important;
+    clip-path: circle(35%);
 }
 .search-36MZv- {
     border-radius: 0px !important;
