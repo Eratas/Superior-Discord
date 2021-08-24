@@ -8,13 +8,13 @@
  */
 
 /* Superior Discord Experimental code */
-/* @import url("https://eratas.github.io/SuperiorDiscordExperimental.css"); */
-
-/* Superior Discord is Based on SimplyDark */
-@import url("https://discordstyles.github.io/SimplyDark/dist/SimplyDark.css");
+@import url("https://eratas.github.io/SuperiorDiscordExperimental.css");
 
 /* SuperiorDiscord.css */
 @import url("https://eratas.github.io/SuperiorDiscord.css");
+
+/* Server Columns by mwittrien */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 /* Google Play Font */
 @import url("https://fonts.googleapis.com/css?family=Play:400,700");
