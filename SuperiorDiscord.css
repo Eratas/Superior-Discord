@@ -69,8 +69,6 @@
 }
 
 
-
-
 /* Inbox */
 
 
@@ -137,6 +135,13 @@
 .size24-1HlGux .avatarContainerMasked-PIJ-3L {
     margin-right: 0px !important;
 	border-radius: 4px !important;
+}
+#app-mount .wrapper-3t9DeA {
+	border-radius: 50% !important;
+}
+.listDefault-3ir5aS .avatarContainer-28iYmV {
+    margin-right: 5px;
+    margin-left: 8px;
 }
 
 
@@ -427,7 +432,7 @@
     left: 0px;
 }
 #app-mount .members-1998pB {
-    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%));
+    background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 1.5%));
 }
 #app-mount .avatar-VxgULZ {
 	border-radius: var(--avatar-shape) !important;
@@ -452,6 +457,9 @@
 }
 #app-mount .container-1r6BKw .searchBar-3dMhjb {
 	background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 1%));
+}
+#app-mount .sidebar-2K8pFh {
+  background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 2%)) !important;
 }
 #app-mount .sidebar-2K8pFh .searchBar-6Kv8R2 {
   background-color: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 4%));
