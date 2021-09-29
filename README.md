@@ -1,43 +1,46 @@
 # Superior-Discord
-A new theme design for a Better Discord experience.
-Based on Gibbu's [SimplyDark sources](https://github.com/DiscordStyles/SimplyDark/tree/master/src) (thank you!)
+A new theme design for a [BetterDiscord](https://betterdiscord.app/) experience.
+
+
+# Features
+
+
+- Custom color hue of Discord
+- Custom saturation of the hue
+- Custom lightness for the hue and saturation
+- Custom colors for blurple
+- Custom borders
+- Custom border shape for avatars
+- Custom Google Font "Play"
+- Multiple columns for the server list
+- Custom server icon sizes
+- Custom server icon gap
+- Custom text colors
+- Automatic updates
+
 
 # Screenshots
 
 
-Normal:
+1 Column:
 
-![normal](https://user-images.githubusercontent.com/62240722/127734701-f3826d7a-1308-4552-ad4b-8da896721d15.png)
-
+![image](https://user-images.githubusercontent.com/62240722/135312746-3d535af3-4a50-4d3c-902d-56a811f0f35d.png)
 
 
 2 Columns:
 
-![image](https://user-images.githubusercontent.com/62240722/127734721-a9e4b52e-6b5c-41e0-b3b7-a73160783421.png)
+![image](https://user-images.githubusercontent.com/62240722/135311323-f14244b0-d261-4935-bfdd-7e0b0717805d.png)
 
 
+Highly customizable:
 
-Settings 1/3:
-
-![settings1](https://user-images.githubusercontent.com/62240722/126868279-2461f5a1-0c2c-47cb-9aa7-bf7e201226a0.png)
-
-
-
-Settings 2/3:
-
-![settings2](https://user-images.githubusercontent.com/62240722/126868307-bfb4ccf1-ceda-441d-a798-8fc4c6f9c725.png)
-
-
-
-Settings 3/3:
-
-![settings3](https://user-images.githubusercontent.com/62240722/126868330-d202085a-8a7d-404f-a81b-4b537dda5d35.png)
-
+![image](https://user-images.githubusercontent.com/62240722/135312974-c70d9ad3-d04a-4ffe-83b6-a9ee367abed7.png)
 
 
 
 
 # BetterDiscord Installation
+
 1. [Download BetterDiscord](https://betterdiscord.app/) and the "SuperiorDiscord.theme.css" file.
 2. Drag the installer outside of your Downloads folder and run as Administrator.
 3. Agree to the license.
@@ -57,20 +60,3 @@ Settings 3/3:
 12. Review the settings for a better personnal experience.
 
 You can reload Discord anytime with <kbd>CTRL</kbd> + <kbd>R</kbd> while Discord is focused.
-
-# Disable Discord Smooth Scrolling Bat file:
-Create a text file in your discord folder and just copy past that inside, rename the file extention into .bat; you can replace the path with your own if it doesn't launch.
-You can then create a shortcut of that .bat and pin it in the start menu.
-
-
-cd C:\Users\%user%\AppData\Local\Discord
-
-FOR /F "delims=" %%i IN ('dir /b /ad-h /t:c /od') DO SET a=%%i
-
-start Update.exe
-
-start %a%\Discord.exe --disable-smooth-scrolling
-
-
-Thanks to r/u/Holycraplol for the bat.
-Thanks to TabularElf for the testings.
