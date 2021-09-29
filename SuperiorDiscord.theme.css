@@ -2,13 +2,10 @@
  * @name Superior Discord
  * @description A highly customizable Superior look for Discord
  * @author Eratas#6720
- * @version 4.0.0
+ * @version 5.0.0
  * @source https://github.com/DiscordStyles/SimplyDark
  * Two painters using the same paint to form the same shapes doesn't steal each other artwork.
  */
-
-/* Superior Discord Experimental code */
-@import url("https://eratas.github.io/SuperiorDiscordExperimental.css");
 
 /* SuperiorDiscord.css */
 @import url("https://eratas.github.io/SuperiorDiscord.css");
@@ -22,20 +19,29 @@
 /* Classic Windows titlebar by Gibbu#1211 */
 @import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
 
+/* Discolored by nyria */
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+/* Settings Icons by mwittrien */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+
+
 :root {
 	--hue:212; /* The color hue of Discord | Default: 212 */
 	--saturation:30%; /* The saturation of the hue | Default: 30% */
 	--lightness:16%; /* The lightness for the hue and saturation | Default: 16% */
-	--accent: 255,150,30; /* Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
-	--avatar-shape:8%; /* The border shape of avatars | Default: 8% */
-	--server-shape:10%; /* The border shape of server icons | Default: 10% */
+	--accent:255,150,30; /* First Custom color for blurple | Default: 50,160,255 for light blue, 255,150,30 for gold | Classic Blurple: 90,112,255 */
+	--brand-experiment:#ff961e; /* Second Custom color for blurple | Default: #32a0ff for light blue, #ff961e for gold | Classic Blurple: #5a70ff */
+	--avatar-shape:100%; /* The border shape of avatars | Default: 100% */
 	--font: 'Play'; /* Custom Google Font Wahwee*/
 	--settingsicons:1; /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no */
 
-	--columns: 1; /* Amount of server columns | Default: 1 */
+	--columns: 2; /* Amount of server columns | Default: 1 */
 	--guildsize: 40; /* Server Icon Size for multiple columns | Default: 40 */
-	--guildgap: 1; /* The top/bottom gap between servers in pixel | Default: 1 */
-	--aligndms: 1; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 0 */
+	--guildgap: 0.5; /* The top/bottom gap between servers in pixel | Default: 0.5 */
+	--aligndms: 1; /* Direct Messages must be aligned in columns: 0 = no, 1 = yes | Default: 1 */
+
+	--sd-borders: hsl(var(--hue), var(--saturation), calc(var(--lightness) + 8%)); /* Border lightness in % | Default: 8% */
 
 	--mentioncolor: 255,170,30; /* Default: 255,170,30 */
 	--successcolor: 30,170,70; /* Default: 30,170,70 */
