@@ -17,6 +17,9 @@ A new theme design for a [BetterDiscord](https://betterdiscord.app/) experience.
 - Custom server icon gap
 - Custom text colors
 - Automatic updates
+- Fully compatible with the ChannelTabs plugin
+- Fully compatible with the FavoriteMedias plugin
+- Compatible with most mini themes and plugins
 
 
 # Screenshots
